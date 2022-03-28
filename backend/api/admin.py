@@ -1,5 +1,7 @@
 from django.contrib import admin
-from api.models import Product
+from . import models
 # Register your models here.
 
-admin.site.register(Product)
+admin.site.register(models.Product)
+admin.site.register(models.League)
+admin.site.register(models.FootballClub)
